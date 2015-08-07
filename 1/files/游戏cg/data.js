@@ -1,0 +1,82 @@
+﻿$axure.loadCurrentPage({
+  "url":"游戏cg.html",
+  "generationDate":new Date(1438937496536.48),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"dd85622c52ae4c9081caf6b2a48c409b",
+    "type":"Axure:Page",
+    "name":"游戏CG",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d848d81a75c44c89b4f5c82915c4ecdd",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1136,
+              "height":640}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ab77b9bf80304b07bcc4368704167480",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1136,
+                  "height":640}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.png"}},
+{
+          "id":"72d916231359471db209e2ab7bc1c173",
+          "label":"video",
+          "type":"inlineFrame",
+          "styleType":"inlineFrame",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":6},
+            "size":{
+              "width":1136,
+              "height":640}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d848d81a75c44c89b4f5c82915c4ecdd":{
+      "scriptId":"u0"},
+    "ab77b9bf80304b07bcc4368704167480":{
+      "scriptId":"u1"},
+    "72d916231359471db209e2ab7bc1c173":{
+      "scriptId":"u2"}}});

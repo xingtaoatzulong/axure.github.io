@@ -1,0 +1,1412 @@
+﻿$axure.loadCurrentPage({
+  "url":"创建角色界面.html",
+  "generationDate":new Date(1438937497206.52),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"dd05a859ddda40508ad8412ef2b2ac89",
+    "type":"Axure:Page",
+    "name":"创建角色界面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e0c797103abd4eb981c619bf352da972",
+          "label":"",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1136,
+              "height":640}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7d9f5ee0399c4499ac4e95b9441ddd0a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1136,
+                  "height":640}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.png"}},
+{
+          "id":"e80f5e9e651e464d82c102c7cf2b934e",
+          "label":"Char1",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF9933FF,
+              "opacity":1},
+            "fill":{
+              "fillType":"linearGradient",
+              "colors":[{
+                  "color":0xFFFFFFFF},
+{
+                  "color":0xFFFFFFFF},
+{
+                  "color":0xFFE4E4E4},
+{
+                  "color":0xFFE4E4E4}]},
+            "location":{
+              "x":380,
+              "y":70},
+            "size":{
+              "width":260,
+              "height":490},
+            "borderWidth":"5",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF000000}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1d681d311a15404aae0f9b01f2a73be1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF9933FF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFFFFFFFF},
+{
+                      "color":0xFFFFFFFF},
+{
+                      "color":0xFFE4E4E4},
+{
+                      "color":0xFFE4E4E4}]},
+                "location":{
+                  "x":380,
+                  "y":70},
+                "size":{
+                  "width":260,
+                  "height":490},
+                "borderWidth":"5",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/创建角色界面/char1_u2.png"}},
+{
+          "id":"2f096e00dba649fca687c044a5c315cb",
+          "label":"返回",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF1E1E1E,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF99CCFF},
+            "location":{
+              "x":58,
+              "y":530},
+            "size":{
+              "width":80,
+              "height":80},
+            "borderWidth":"2",
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b1088b41ff19405ebf5b3af057a538d2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF1E1E1E,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99CCFF},
+                "location":{
+                  "x":58,
+                  "y":530},
+                "size":{
+                  "width":80,
+                  "height":80},
+                "borderWidth":"2",
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"closeCurrent",
+                      "description":"关闭当前窗口"},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择服务器",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择服务器.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/创建角色界面/返回_u4.png"}},
+{
+          "id":"05819c00b7b34782afb6e88995ab3599",
+          "label":"自定义1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF1E1E1E,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF99CCFF},
+            "location":{
+              "x":1020,
+              "y":540},
+            "size":{
+              "width":80,
+              "height":80},
+            "borderWidth":"2",
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b8ed9b7402ad419693c6e9168342965d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF1E1E1E,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99CCFF},
+                "location":{
+                  "x":1020,
+                  "y":540},
+                "size":{
+                  "width":80,
+                  "height":80},
+                "borderWidth":"2",
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"closeCurrent",
+                      "description":"关闭当前窗口"},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 角色列表界面",
+                      "target":{
+                        "targetType":"page",
+                        "url":"角色列表界面.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/创建角色界面/返回_u4.png"}},
+{
+          "id":"2328bb5ea3cf407fb2b3e949583118e6",
+          "label":"战士",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "selected":true,
+          "style":{
+            "fontName":"'Arial Cursiva', 'Arial'",
+            "fontSize":"20px",
+            "fontStyle":"italic",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF1E1E1E,
+              "opacity":1},
+            "stateStyles":{
+              "selected":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99CCFF}}},
+            "location":{
+              "x":60,
+              "y":80},
+            "size":{
+              "width":70,
+              "height":70},
+            "borderWidth":"2",
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6b71acb6bb1e4d19b02c27ad365d3208",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Cursiva', 'Arial'",
+                "fontSize":"20px",
+                "fontStyle":"italic",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF1E1E1E,
+                  "opacity":1},
+                "stateStyles":{
+                  "selected":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFF99CCFF}}},
+                "location":{
+                  "x":60,
+                  "y":80},
+                "size":{
+                  "width":70,
+                  "height":70},
+                "borderWidth":"2",
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 Char1 淡入淡出 800 ms 置于顶层,<br>隐藏 Char2,<br>Char3",
+                      "objectsToFades":[{
+                          "objectPath":["a6ae0af105cd465aa34af151d0721bf2"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["6edc665526a64d8fae5c896626b5f52b"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e80f5e9e651e464d82c102c7cf2b934e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"fade",
+                              "duration":800,
+                              "showType":"front"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 被选中的 战士 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["2328bb5ea3cf407fb2b3e949583118e6"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 被选中的 刺客 = &quot;false&quot;, 与<br> 被选中的 法师 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["99253fbdd1fb43d5b60781a29b410a0c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["0ae1c0ff815740358b90d833e8322fb7"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 职业介绍战士 向下滑动 300 ms 置于顶层",
+                      "objectsToFades":[{
+                          "objectPath":["818a3bdc11724c409ae692287ee83e31"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"slideDown",
+                              "duration":300,
+                              "showType":"front"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 职业介绍法师 拉 部件 right 缓慢进入退出 500ms,<br>职业介绍刺客",
+                      "objectsToFades":[{
+                          "objectPath":["d8347c52713e4557b0a4fda291039bdd"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"compress",
+                              "vertical":false,
+                              "compressEasing":"easeInOutCubic",
+                              "compressDuration":500}}},
+{
+                          "objectPath":["f65646e1e0d94a7e8038bf75029a0251"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/创建角色界面/战士_u8.png",
+            "selected~":"images/创建角色界面/战士_u8_selected.png"}},
+{
+          "id":"99253fbdd1fb43d5b60781a29b410a0c",
+          "label":"刺客",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Cursiva', 'Arial'",
+            "fontSize":"20px",
+            "fontStyle":"italic",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF1E1E1E,
+              "opacity":1},
+            "stateStyles":{
+              "selected":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99CCFF}}},
+            "location":{
+              "x":60,
+              "y":190},
+            "size":{
+              "width":70,
+              "height":70},
+            "borderWidth":"2",
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6714bf22be9f48d18971f4ec98a440de",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Cursiva', 'Arial'",
+                "fontSize":"20px",
+                "fontStyle":"italic",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF1E1E1E,
+                  "opacity":1},
+                "stateStyles":{
+                  "selected":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFF99CCFF}}},
+                "location":{
+                  "x":60,
+                  "y":190},
+                "size":{
+                  "width":70,
+                  "height":70},
+                "borderWidth":"2",
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 Char2 淡入淡出 800 ms 置于顶层,<br>隐藏 Char3,<br>Char1",
+                      "objectsToFades":[{
+                          "objectPath":["6edc665526a64d8fae5c896626b5f52b"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e80f5e9e651e464d82c102c7cf2b934e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a6ae0af105cd465aa34af151d0721bf2"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"fade",
+                              "duration":800,
+                              "showType":"front"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 被选中的 刺客 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["99253fbdd1fb43d5b60781a29b410a0c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 被选中的 战士 = &quot;false&quot;, 与<br> 被选中的 法师 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["2328bb5ea3cf407fb2b3e949583118e6"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["0ae1c0ff815740358b90d833e8322fb7"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 职业介绍刺客 向下滑动 500 ms 置于顶层,<br>隐藏 职业介绍战士,<br>职业介绍法师 向下滑动 500 ms",
+                      "objectsToFades":[{
+                          "objectPath":["f65646e1e0d94a7e8038bf75029a0251"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"slideDown",
+                              "duration":500,
+                              "showType":"front"}}},
+{
+                          "objectPath":["818a3bdc11724c409ae692287ee83e31"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d8347c52713e4557b0a4fda291039bdd"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "easing":"slideDown",
+                              "duration":500,
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/创建角色界面/战士_u8.png",
+            "selected~":"images/创建角色界面/战士_u8_selected.png"}},
+{
+          "id":"0ae1c0ff815740358b90d833e8322fb7",
+          "label":"法师",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Cursiva', 'Arial'",
+            "fontSize":"20px",
+            "fontStyle":"italic",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF1E1E1E,
+              "opacity":1},
+            "stateStyles":{
+              "selected":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99CCFF}}},
+            "location":{
+              "x":60,
+              "y":300},
+            "size":{
+              "width":70,
+              "height":70},
+            "borderWidth":"2",
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"daaa172cb58c4ac5a1c34770bf711e40",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Cursiva', 'Arial'",
+                "fontSize":"20px",
+                "fontStyle":"italic",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF1E1E1E,
+                  "opacity":1},
+                "stateStyles":{
+                  "selected":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFF99CCFF}}},
+                "location":{
+                  "x":60,
+                  "y":300},
+                "size":{
+                  "width":70,
+                  "height":70},
+                "borderWidth":"2",
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 Char3 淡入淡出 800 ms 置于顶层,<br>隐藏 Char1,<br>Char2",
+                      "objectsToFades":[{
+                          "objectPath":["6edc665526a64d8fae5c896626b5f52b"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"fade",
+                              "duration":800,
+                              "showType":"front"}}},
+{
+                          "objectPath":["e80f5e9e651e464d82c102c7cf2b934e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["a6ae0af105cd465aa34af151d0721bf2"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"setFunction",
+                      "description":"设置 被选中的 法师 = &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["0ae1c0ff815740358b90d833e8322fb7"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 被选中的 战士 = &quot;false&quot;, 与<br> 被选中的 刺客 = &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["2328bb5ea3cf407fb2b3e949583118e6"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["99253fbdd1fb43d5b60781a29b410a0c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"false",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 职业介绍法师 向下滑动 500 ms 置于顶层,<br>隐藏 职业介绍刺客,<br>职业介绍战士",
+                      "objectsToFades":[{
+                          "objectPath":["d8347c52713e4557b0a4fda291039bdd"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "easing":"slideDown",
+                              "duration":500,
+                              "showType":"front"}}},
+{
+                          "objectPath":["f65646e1e0d94a7e8038bf75029a0251"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["818a3bdc11724c409ae692287ee83e31"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/创建角色界面/战士_u8.png",
+            "selected~":"images/创建角色界面/战士_u8_selected.png"}},
+{
+          "id":"7438f7404acc4a589936d1eff6c208fc",
+          "label":"email-field",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Helvetica Regular', 'Helvetica'",
+            "fontSize":"16px",
+            "horizontalAlignment":"center",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF666666,
+              "opacity":1},
+            "location":{
+              "x":374,
+              "y":570},
+            "size":{
+              "width":266,
+              "height":40}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"6edc665526a64d8fae5c896626b5f52b",
+          "label":"Char3",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "disabled":true,
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF9933FF,
+              "opacity":1},
+            "fill":{
+              "fillType":"linearGradient",
+              "colors":[{
+                  "color":0xFF66CCFF},
+{
+                  "color":0xFF66CCFF},
+{
+                  "color":0xFFE4E4E4},
+{
+                  "color":0xFFE4E4E4}]},
+            "location":{
+              "x":380,
+              "y":70},
+            "size":{
+              "width":260,
+              "height":490},
+            "visible":false,
+            "borderWidth":"5",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF6699FF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6f30bf864dde40849dbc20785b1ac63d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF9933FF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFF66CCFF},
+{
+                      "color":0xFF66CCFF},
+{
+                      "color":0xFFE4E4E4},
+{
+                      "color":0xFFE4E4E4}]},
+                "location":{
+                  "x":380,
+                  "y":70},
+                "size":{
+                  "width":260,
+                  "height":490},
+                "visible":false,
+                "borderWidth":"5",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF6699FF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/创建角色界面/char3_u15.png"}},
+{
+          "id":"a6ae0af105cd465aa34af151d0721bf2",
+          "label":"Char2",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "disabled":true,
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF9933FF,
+              "opacity":1},
+            "fill":{
+              "fillType":"linearGradient",
+              "colors":[{
+                  "color":0xFFFFCC99},
+{
+                  "color":0xFFFFCC99},
+{
+                  "color":0xFFE4E4E4},
+{
+                  "color":0xFFE4E4E4}]},
+            "location":{
+              "x":380,
+              "y":70},
+            "size":{
+              "width":260,
+              "height":490},
+            "visible":false,
+            "borderWidth":"5",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFF9933}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0f2eab560c104a29b3b2275987bf3aa5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF9933FF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFFFFCC99},
+{
+                      "color":0xFFFFCC99},
+{
+                      "color":0xFFE4E4E4},
+{
+                      "color":0xFFE4E4E4}]},
+                "location":{
+                  "x":380,
+                  "y":70},
+                "size":{
+                  "width":260,
+                  "height":490},
+                "visible":false,
+                "borderWidth":"5",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF9933}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/创建角色界面/char2_u17.png"}},
+{
+          "id":"06f6fbbe00a94670ab180e367114f7f5",
+          "label":"随机按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Cursiva', 'Arial'",
+            "fontSize":"20px",
+            "fontStyle":"italic",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF1E1E1E,
+              "opacity":1},
+            "stateStyles":{
+              "selected":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99CCFF}}},
+            "location":{
+              "x":640,
+              "y":555},
+            "size":{
+              "width":70,
+              "height":70},
+            "borderWidth":"2",
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"998ce4441c384307a141780938bdf887",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Cursiva', 'Arial'",
+                "fontSize":"20px",
+                "fontStyle":"italic",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF1E1E1E,
+                  "opacity":1},
+                "stateStyles":{
+                  "selected":{
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFF99CCFF}}},
+                "location":{
+                  "x":640,
+                  "y":555},
+                "size":{
+                  "width":70,
+                  "height":70},
+                "borderWidth":"2",
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 email-field = &quot;姜子牙&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetFormText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["7438f7404acc4a589936d1eff6c208fc"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"姜子牙",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/创建角色界面/战士_u8.png",
+            "selected~":"images/创建角色界面/战士_u8_selected.png"}},
+{
+          "id":"d8347c52713e4557b0a4fda291039bdd",
+          "label":"职业介绍法师",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":860,
+              "y":110},
+            "size":{
+              "width":200,
+              "height":260},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"bc61fd1244e44206aeeafbcf1d9e200d",
+              "label":"法师介绍",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"31330c26b6e345ac957f5ccaf1134b46",
+                  "label":"",
+                  "parentDynamicPanel":"d8347c52713e4557b0a4fda291039bdd",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":200,
+                      "height":260},
+                    "borderWidth":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"f2b99d80ce87485484ff2fdb21df399f",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"d8347c52713e4557b0a4fda291039bdd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":200,
+                          "height":260},
+                        "borderWidth":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/创建角色界面/u22.png"}},
+{
+                  "id":"118d303352824c8594b590a86bcc3125",
+                  "label":"",
+                  "parentDynamicPanel":"d8347c52713e4557b0a4fda291039bdd",
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "location":{
+                      "x":10,
+                      "y":11},
+                    "size":{
+                      "width":180,
+                      "height":229}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"a3d8d843278942bb9bf569fcb6e6ea9f",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"d8347c52713e4557b0a4fda291039bdd",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "horizontalAlignment":"center",
+                        "location":{
+                          "x":10,
+                          "y":11},
+                        "size":{
+                          "width":180,
+                          "height":229}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]},
+{
+          "id":"f65646e1e0d94a7e8038bf75029a0251",
+          "label":"职业介绍刺客",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":860,
+              "y":110},
+            "size":{
+              "width":200,
+              "height":260},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"0d81d357984140648c5945fdf1f75462",
+              "label":"刺客介绍",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"6fb3067e879a46d69a3f56cb7c7f3c85",
+                  "label":"",
+                  "parentDynamicPanel":"f65646e1e0d94a7e8038bf75029a0251",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":200,
+                      "height":260},
+                    "borderWidth":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"e3c0c2bf3925497595aa719c474eea1d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"f65646e1e0d94a7e8038bf75029a0251",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":200,
+                          "height":260},
+                        "borderWidth":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/创建角色界面/u22.png"}},
+{
+                  "id":"6a3619185c514bd79526a50b1500085c",
+                  "label":"",
+                  "parentDynamicPanel":"f65646e1e0d94a7e8038bf75029a0251",
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "location":{
+                      "x":10,
+                      "y":11},
+                    "size":{
+                      "width":180,
+                      "height":229}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"00c6f3943d6b486f8775a4d95dbe178b",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"f65646e1e0d94a7e8038bf75029a0251",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "horizontalAlignment":"center",
+                        "location":{
+                          "x":10,
+                          "y":11},
+                        "size":{
+                          "width":180,
+                          "height":229}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]},
+{
+          "id":"818a3bdc11724c409ae692287ee83e31",
+          "label":"职业介绍战士",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":860,
+              "y":110},
+            "size":{
+              "width":200,
+              "height":260},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"641bec6b1c664fc29798874def1b68a7",
+              "label":"战士介绍",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"d7107ef64e9d4ca0ba622a7fe1bbafe6",
+                  "label":"",
+                  "parentDynamicPanel":"818a3bdc11724c409ae692287ee83e31",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":200,
+                      "height":260},
+                    "borderWidth":"2"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"6ae933424c324d8faa52afaaf13f63fb",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"818a3bdc11724c409ae692287ee83e31",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":200,
+                          "height":260},
+                        "borderWidth":"2"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/创建角色界面/u22.png"}},
+{
+                  "id":"8131b3f6c1c54daa99f492b0bd99a3cc",
+                  "label":"",
+                  "parentDynamicPanel":"818a3bdc11724c409ae692287ee83e31",
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "location":{
+                      "x":10,
+                      "y":11},
+                    "size":{
+                      "width":180,
+                      "height":229}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"d19ef05276464b419828bf762070dbb9",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"818a3bdc11724c409ae692287ee83e31",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "horizontalAlignment":"center",
+                        "location":{
+                          "x":10,
+                          "y":11},
+                        "size":{
+                          "width":180,
+                          "height":229}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]},
+{
+          "id":"af6ebfbf26644a3cb6f2d617dd447c9b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1160,
+              "y":116},
+            "size":{
+              "width":300,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f14ec04749c04267b44354f5476975c7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":1160,
+                  "y":116},
+                "size":{
+                  "width":300,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e0c797103abd4eb981c619bf352da972":{
+      "scriptId":"u0"},
+    "7d9f5ee0399c4499ac4e95b9441ddd0a":{
+      "scriptId":"u1"},
+    "e80f5e9e651e464d82c102c7cf2b934e":{
+      "scriptId":"u2"},
+    "1d681d311a15404aae0f9b01f2a73be1":{
+      "scriptId":"u3"},
+    "2f096e00dba649fca687c044a5c315cb":{
+      "scriptId":"u4"},
+    "b1088b41ff19405ebf5b3af057a538d2":{
+      "scriptId":"u5"},
+    "05819c00b7b34782afb6e88995ab3599":{
+      "scriptId":"u6"},
+    "b8ed9b7402ad419693c6e9168342965d":{
+      "scriptId":"u7"},
+    "2328bb5ea3cf407fb2b3e949583118e6":{
+      "scriptId":"u8"},
+    "6b71acb6bb1e4d19b02c27ad365d3208":{
+      "scriptId":"u9"},
+    "99253fbdd1fb43d5b60781a29b410a0c":{
+      "scriptId":"u10"},
+    "6714bf22be9f48d18971f4ec98a440de":{
+      "scriptId":"u11"},
+    "0ae1c0ff815740358b90d833e8322fb7":{
+      "scriptId":"u12"},
+    "daaa172cb58c4ac5a1c34770bf711e40":{
+      "scriptId":"u13"},
+    "7438f7404acc4a589936d1eff6c208fc":{
+      "scriptId":"u14"},
+    "6edc665526a64d8fae5c896626b5f52b":{
+      "scriptId":"u15"},
+    "6f30bf864dde40849dbc20785b1ac63d":{
+      "scriptId":"u16"},
+    "a6ae0af105cd465aa34af151d0721bf2":{
+      "scriptId":"u17"},
+    "0f2eab560c104a29b3b2275987bf3aa5":{
+      "scriptId":"u18"},
+    "06f6fbbe00a94670ab180e367114f7f5":{
+      "scriptId":"u19"},
+    "998ce4441c384307a141780938bdf887":{
+      "scriptId":"u20"},
+    "d8347c52713e4557b0a4fda291039bdd":{
+      "scriptId":"u21"},
+    "31330c26b6e345ac957f5ccaf1134b46":{
+      "scriptId":"u22"},
+    "f2b99d80ce87485484ff2fdb21df399f":{
+      "scriptId":"u23"},
+    "118d303352824c8594b590a86bcc3125":{
+      "scriptId":"u24"},
+    "a3d8d843278942bb9bf569fcb6e6ea9f":{
+      "scriptId":"u25"},
+    "f65646e1e0d94a7e8038bf75029a0251":{
+      "scriptId":"u26"},
+    "6fb3067e879a46d69a3f56cb7c7f3c85":{
+      "scriptId":"u27"},
+    "e3c0c2bf3925497595aa719c474eea1d":{
+      "scriptId":"u28"},
+    "6a3619185c514bd79526a50b1500085c":{
+      "scriptId":"u29"},
+    "00c6f3943d6b486f8775a4d95dbe178b":{
+      "scriptId":"u30"},
+    "818a3bdc11724c409ae692287ee83e31":{
+      "scriptId":"u31"},
+    "d7107ef64e9d4ca0ba622a7fe1bbafe6":{
+      "scriptId":"u32"},
+    "6ae933424c324d8faa52afaaf13f63fb":{
+      "scriptId":"u33"},
+    "8131b3f6c1c54daa99f492b0bd99a3cc":{
+      "scriptId":"u34"},
+    "d19ef05276464b419828bf762070dbb9":{
+      "scriptId":"u35"},
+    "af6ebfbf26644a3cb6f2d617dd447c9b":{
+      "scriptId":"u36"},
+    "f14ec04749c04267b44354f5476975c7":{
+      "scriptId":"u37"}}});
